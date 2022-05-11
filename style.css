@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dce9e2;
+}
+
+header {
+  background-color: #00856f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.button-nav {
+  background-color: #00856f;
+  color: white;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px 24px;
+}
+
+main p {
+  color: #00856f;
+}
